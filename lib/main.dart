@@ -5,14 +5,13 @@ void main() {
     MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.purple[200],
+          backgroundColor: Colors.red[100],
           title: Text('I am Beautiful'),
         ),
         body: Center(
           child: (Image(
             image:
-            NetworkImage(
-                'https://www.yogajournal.com/.image/t_share/MTUxMDUxNDQ2NDQyMjcyNzA5/fearless.jpg'),
+            AssetImage('images/rose.jpg'),
           )
           ),
         ),
